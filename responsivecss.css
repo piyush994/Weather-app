@@ -11,7 +11,7 @@
         font-size:32px;
         margin-top: 45px;
     }
-    .nav{
+    .navbar{
         flex-direction:column;
         justify-content: center;
         align-items: center;
