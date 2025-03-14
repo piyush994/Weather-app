@@ -1,0 +1,103 @@
+@media(max-width:650px){
+    .container2{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }
+    .container3{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        font-size:32px;
+        margin-top: 45px;
+    }
+    .nav{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        height:180px;
+    }
+    #searchtext{
+        width:200px;
+        height:41px;
+        font-size:20px;
+    }
+    #searchbtn{
+       
+       width:50px;
+       height:41px;
+       font-size:13px;
+       
+       padding-top:4px;
+    
+    }
+    #location_btn{
+        border:2px solid white;
+        width:120px;
+        height:40px;
+        font-size:15px;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    #location_btn:hover{
+        
+        width:120px;
+        height:40px;
+        font-size:15px;
+    }
+    .cityname{
+        font-size: 40px;
+    }
+    #weather_img{
+        height:200px;
+        width:260px;
+    }
+    .temp_c{
+        font-size:60px; 
+    }
+    .feelslike{
+        width: 170px;
+        height:170px;
+        margin-bottom: 15px;
+    }
+    .humidity{
+        width: 170px;
+        height:170px;
+        margin-bottom: 15px;
+    }
+    .windkph{
+        width:170px;
+        height:170px;
+        margin-bottom: 15px;
+    }
+    .icons{
+        width:70px;
+        height:70px;
+    }
+    #temp_img{
+        width:120px;
+        height:110px;
+        margin-top:30px;
+    }
+}
+@media(min-width:650px) and (max-width:960px){
+    
+        #searchtext{
+            width:260px;
+            font-size:22px;
+        }
+        #searchbtn{
+            width:60px;
+            font-size:17px;
+           padding-top: 3px;
+        
+        }
+        #location_btn{
+            width:100px;
+            font-size:17px;
+        }
+        #location_btn:hover{   
+            width:100px;
+            font-size:17px;  
+        }
+}
