@@ -1,0 +1,86 @@
+@media(max-width:650px){
+     .temperature{
+        padding-top:30px;
+     }
+     .feelslike_box{
+        height:25vmin;
+     }
+     .humidity_box{
+        height:25vmin;
+     }
+     .windkph_box{
+        height:25vmin;
+     }
+    
+}
+@media(max-width:870px){
+   .icons{
+      width:8vw;
+   }
+   #temp_img{
+      width:11vw;
+      height:16vmin;
+  }
+}
+@media(max-width:1450px){
+    .feelslike_box{
+       height:27vmin;
+    }
+    .humidity_box{
+       height: 27vmin;
+    }
+    .windkph_box{
+       height:27vmin;
+    }
+   
+}
+
+@media(max-width:1380px){
+    #logoname{
+        padding:2.2vmin;
+    }
+}
+@media(max-width:1050px){
+    #logoimg{
+        width:5vw;
+    }
+    .feelslike_box{
+        width:19vw;
+        height:26vmin;
+     }
+     .humidity_box{
+        width:19vw;
+        height: 26vmin;
+     }
+     .windkph_box{
+        width:19vw;
+        height:26vmin;
+     }
+}
+@media(max-width:310px){
+    .temperature{
+      padding-top: 15px;
+    }
+    .icons{
+        margin-bottom:5px;
+    }
+    .container3{
+      margin-top:14px;
+   }
+   .searchbox{
+      margin-top:-px;
+  }
+}
+@media(max-width:370px){
+    .searchbox{
+        margin-top:-2px;
+    }
+}
+@media(max-width:470px){
+   .container3{
+      margin-top:27px;
+   }
+   .icons{
+      margin-bottom:8px;
+   }
+}
