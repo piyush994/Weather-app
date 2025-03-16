@@ -66,6 +66,10 @@
         padding-right:0px;
         font-size:3.6vmin;
     }
+    #searchimg{
+        width:4.5vw;
+       
+    }
     #logoimg{
         width:9vw;
         height:8.9vmin;
@@ -82,7 +86,7 @@
         border-radius: 10px;
     }
     #location_img{
-        width:5vw;
+        width:4vw;
     }
     .temperature{
        padding-top:20px;
