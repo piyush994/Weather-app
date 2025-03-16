@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivecss.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div id="logo">
+        <img id="logoimg" src="https://tse1.mm.bing.net/th?id=OIP.IVrB9KnhNayOu_GPQ6KO_wHaHa&pid=Api&P=0&h=180" alt="logo" >
+        <p id="logoname">WEATHER</p>
+        </div>
+        <div class="searchbox">
+            <input id="searchtext" type="search" placeholder="Enter your location">
+        <button id="searchbtn">
+            <img id="searchimg" src="https://cdn-icons-png.flaticon.com/128/3031/3031293.png" alt="search_image">
+        </button>
+        </div>
+        <button id="location_btn">
+            <img id="location_img" src="https://cdn-icons-png.flaticon.com/128/3179/3179068.png"alt="location_image">
+        </button>
+    </div>
+    <br>
+        <p id="cityname"></p>
+    <br>
+    <div class="container2">
+    <div class="weather_imgbox">
+        <img id="weather_img" src="https://cdn-icons-png.flaticon.com/128/9579/9579443.png" alt="weather_image">
+        
+    </div>
+   
+    <div class="temperature">
+       
+        <p id="temp_c"></p>
+        <p id="temp_c">°C</p>
+        
+        </div>
+        
+        </div><br>
+        <p id="description"></p>
+    <div class="container3">
+    <div class="feelslike_box">
+        <img class="icons" src="https://cdn-icons-png.flaticon.com/128/17084/17084795.png" alt="feelslikeicon">
+        FeelsLike
+        <p id="feelslike_c"></p>
+    </div>
+    <div class="humidity_box">
+        <img class="icons" src="https://cdn-icons-png.flaticon.com/128/727/727891.png" alt="humidityicon">
+        Humidity
+        <p id="humidity"></p>
+    </div>
+    <div class="windkph_box">
+        <img class="icons" src="https://cdn-icons-png.flaticon.com/128/2011/2011448.png" alt="windicon">
+        Windkph
+        <p id="wind_kph"></p>
+    </div>
+</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
