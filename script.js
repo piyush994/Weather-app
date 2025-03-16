@@ -68,8 +68,8 @@ function fail()
     console.log("there was some issue");
 }
 
-searchbtn.addEventListener("click",()=>{
-   
+searchbtn.addEventListener("click",(e)=>{
+     e.preventDefault();
      weather2(searchtext.value,"","");
 });
 location_btn.addEventListener("click",()=>{
