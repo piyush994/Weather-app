@@ -1,0 +1,154 @@
+
+@media(max-width:1450px){
+    .feelslike_box{
+        height:30vmin;
+     }
+     .humidity_box{
+        height: 30vmin;
+     }
+     .windkph_box{
+        height:30vmin;
+     }
+  
+}
+
+@media(max-width:1380px){
+   #logoname{
+       padding:2.2vmin;
+   }
+}
+@media(max-width:1050px){
+   #logoimg{
+       width:5vw;
+   }
+   .container2{
+    padding-top:0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#description{
+    margin-top:15px;
+}
+   .feelslike_box{
+       width:21vw;
+       height:29vmin;
+    }
+    .humidity_box{
+       width:21vw;
+       height: 29vmin;
+    }
+    .windkph_box{
+       width:21vw;
+       height:29vmin;
+    }
+    .icons{
+        width:9vw;
+     }
+}
+
+@media(max-width:650px){
+    .navbar{
+        height:9vmin;
+    }
+    #searchtext{
+        width:38vw;
+        height:8.8vmin;
+        font-size:3.3vw;
+    }
+    #searchbtn{
+       width:9vw;
+       height:8.7vmin;
+       font-size:2.2vw;
+       padding-top: 0.5vw;
+    }
+    #logoname{
+        padding:3vmin;
+        font-size:3.6vmin;
+    }
+    #logoimg{
+        width:9vw;
+        height:8.9vmin;
+        border-radius:20px;
+    }
+    #location_btn{
+        width:9vw;
+        height:8.8vmin;
+        font-size:1.2vw;
+        border-radius: 10px;
+    }
+    #location_btn:hover{
+        width:9vw;
+        height:8.8vmin;
+        font-size:1.2vw;
+        border-radius: 10px;
+    }
+    .temperature{
+       padding-top:20px;
+    }
+    #temp_c{
+       font-size:20vmin;
+    }
+    #description{
+        margin-top:8px;
+    }
+    .feelslike_box{
+       height:32vmin;
+       width:26vw;
+    }
+    .humidity_box{
+       height:32vmin;
+       width:26vw;
+    }
+    .windkph_box{
+       height:32vmin;
+       width:26vw;
+    }
+    .container2{
+        padding-top:0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #weather_img{
+        height:45vmin;
+        width:50vmin;
+    }
+    #description{
+        font-size:6vmin;
+    }
+    .container3{
+        font-size:4vw;
+        padding-bottom:50px;
+     }
+     .icons{
+        margin-bottom:8px;
+        width:10vw;
+     }
+}
+@media(max-width:470px){
+   
+    .icons{
+       margin-bottom:16px;
+       width:10vw;
+    }
+  }
+@media(max-width:370px){
+   .searchbox{
+       margin-top:-2px;
+   }
+   .icons{
+    margin-bottom:6px;
+    
+ }
+}
+@media(max-width:310px){
+    .icons{
+        margin-bottom:5px;
+    }
+   .searchbox{
+      margin-top:-4px;
+  }
+ }
+

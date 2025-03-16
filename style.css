@@ -1,0 +1,143 @@
+
+*{
+    margin:0px;
+    padding:0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color:#1d71f2;
+}
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: rgb(21, 74, 74);
+    height:6.5vmin;
+}
+#searchtext{
+    width:30vw;
+    height:6vmin;
+    font-size:1.8vw;
+}
+#searchbtn{
+   width:6vw;
+   height:6vmin;
+   font-size:1.4vw;
+   margin-left:-5px;
+   padding-top: 0.3vw;
+}
+#logo{
+    display: flex;
+    flex-direction:row;  
+}
+#logoname{
+    padding:2vmin;
+    font-size:2.6vmin;
+    color:white;
+}
+#logoimg{
+    width:3.6vw;
+    height:6.4vmin;
+    border-radius:20px;
+}
+#location_btn{
+    border:2px solid white;
+    width:9vw;
+    height:6.4vmin;
+    font-size:1.2vw;
+    border-radius: 20px;
+}
+#location_btn:hover{
+    width:9vw;
+    height:6.4vmin;
+    font-size:1.2vw;
+    background-color:white;
+    color:rgb(21, 74, 74);
+    border-radius: 20px;
+}
+#cityname{
+    font-size: 7vmin;
+    text-align: center;
+    color:white;
+    margin-top:10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.weather_imgbox{
+    text-align:center;
+    color:white;
+}
+#weather_img{
+    height:37vmin;
+    width:45vmin;
+}
+
+.temperature{
+    display:flex;
+    flex-direction: row;
+    padding-top:60px;
+}
+#temp_c{
+    color:white;
+    font-size:18vmin;
+    text-align: center;
+    font-weight:700;
+}
+#temp_img{
+    width:9vw;
+    height:16vmin;
+}
+#description{
+    text-align: center;
+    font-size:5vmin;
+    color:white;
+}
+.container3{
+    font-size:3vw;
+    margin-top:70px;
+    padding-bottom:30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.feelslike_box{
+    border:4px solid white;
+    border-radius: 20px;
+    width:19vw;
+    height:34vmin;
+    text-align: center;
+    color:black;
+    background-color: lightblue;
+    padding-top:8px;
+}
+.humidity_box{
+    border:4px solid white;
+    border-radius: 20px;
+    width:19vw;
+    height:34vmin;
+    text-align: center;
+    color:black;
+    background-color:lightblue;
+    padding-top:8px;
+}
+.windkph_box{
+    border:4px solid white;
+    border-radius: 20px;
+    width:19vw;
+    height:34vmin;
+    text-align: center;
+    color:black;
+    background-color:lightblue;
+    padding-top:8px;
+}
+.icons{
+    width:7vw;
+    height:15vmin;
+    margin-bottom:15px;
+}
+
